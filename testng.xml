@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="1 Verify the header of the Page">
+		<classes>
+			<class name="com.testcases.HeaderTestPage" />
+		</classes>
+	</test>
+	<test name="2 Verify the home of the Page">
+		<classes>
+			<class name="com.testcases.HomeTestPage" />
+		</classes>
+	</test>
+	<test name="3 Verify the Footer of the Page">
+		<classes>
+			<class name="com.testcases.FooterTestPage" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

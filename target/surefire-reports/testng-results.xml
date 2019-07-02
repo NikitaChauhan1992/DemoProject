@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120573" started-at="2019-07-01T10:31:21Z" finished-at="2019-07-01T10:33:22Z">
+    <groups>
+    </groups>
+    <test name="1 Verify the header of the Page" duration-ms="59422" started-at="2019-07-01T10:31:21Z" finished-at="2019-07-01T10:32:21Z">
+      <class name="com.testcases.HeaderTestPage">
+        <test-method status="PASS" signature="verifyUpperheaderPage()[pri:1, instance:com.testcases.HeaderTestPage@2d6e8792]" name="verifyUpperheaderPage" duration-ms="18187" started-at="2019-07-01T16:01:21Z" finished-at="2019-07-01T16:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpperheaderPage -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.testcases.HeaderTestPage@2d6e8792]" name="captureStatus" is-config="true" duration-ms="3" started-at="2019-07-01T16:01:39Z" finished-at="2019-07-01T16:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUpperheaderPage status=SUCCESS method=HeaderTestPage.verifyUpperheaderPage()[pri:1, instance:com.testcases.HeaderTestPage@2d6e8792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="verifyGlobalheaderPage()[pri:2, instance:com.testcases.HeaderTestPage@2d6e8792]" name="verifyGlobalheaderPage" duration-ms="12179" started-at="2019-07-01T16:01:39Z" finished-at="2019-07-01T16:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGlobalheaderPage -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.testcases.HeaderTestPage@2d6e8792]" name="captureStatus" is-config="true" duration-ms="0" started-at="2019-07-01T16:01:52Z" finished-at="2019-07-01T16:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGlobalheaderPage status=SUCCESS method=HeaderTestPage.verifyGlobalheaderPage()[pri:2, instance:com.testcases.HeaderTestPage@2d6e8792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="verifySubheaderAboutUsPage()[pri:3, instance:com.testcases.HeaderTestPage@2d6e8792]" name="verifySubheaderAboutUsPage" duration-ms="29039" started-at="2019-07-01T16:01:52Z" finished-at="2019-07-01T16:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubheaderAboutUsPage -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.testcases.HeaderTestPage@2d6e8792]" name="captureStatus" is-config="true" duration-ms="0" started-at="2019-07-01T16:02:21Z" finished-at="2019-07-01T16:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubheaderAboutUsPage status=SUCCESS method=HeaderTestPage.verifySubheaderAboutUsPage()[pri:3, instance:com.testcases.HeaderTestPage@2d6e8792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+      </class> <!-- com.testcases.HeaderTestPage -->
+    </test> <!-- 1 Verify the header of the Page -->
+    <test name="2 Verify the home of the Page" duration-ms="44336" started-at="2019-07-01T10:32:21Z" finished-at="2019-07-01T10:33:05Z">
+      <class name="com.testcases.HomeTestPage">
+        <test-method status="PASS" signature="verifyHeroSlider()[pri:1, instance:com.testcases.HomeTestPage@5ebec15]" name="verifyHeroSlider" duration-ms="10966" started-at="2019-07-01T16:02:21Z" finished-at="2019-07-01T16:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeroSlider -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.testcases.HomeTestPage@5ebec15]" name="captureStatus" is-config="true" duration-ms="0" started-at="2019-07-01T16:02:32Z" finished-at="2019-07-01T16:02:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeroSlider status=SUCCESS method=HomeTestPage.verifyHeroSlider()[pri:1, instance:com.testcases.HomeTestPage@5ebec15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="verifyCommunity()[pri:3, instance:com.testcases.HomeTestPage@5ebec15]" name="verifyCommunity" duration-ms="33369" started-at="2019-07-01T16:02:32Z" finished-at="2019-07-01T16:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommunity -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.testcases.HomeTestPage@5ebec15]" name="captureStatus" is-config="true" duration-ms="0" started-at="2019-07-01T16:03:05Z" finished-at="2019-07-01T16:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCommunity status=SUCCESS method=HomeTestPage.verifyCommunity()[pri:3, instance:com.testcases.HomeTestPage@5ebec15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+      </class> <!-- com.testcases.HomeTestPage -->
+    </test> <!-- 2 Verify the home of the Page -->
+    <test name="3 Verify the Footer of the Page" duration-ms="16793" started-at="2019-07-01T10:33:05Z" finished-at="2019-07-01T10:33:22Z">
+      <class name="com.testcases.FooterTestPage">
+        <test-method status="PASS" signature="navigate()[pri:0, instance:com.testcases.FooterTestPage@79b4d0f]" name="navigate" is-config="true" duration-ms="10340" started-at="2019-07-01T16:01:11Z" finished-at="2019-07-01T16:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="verifyFooter()[pri:1, instance:com.testcases.FooterTestPage@79b4d0f]" name="verifyFooter" duration-ms="16791" started-at="2019-07-01T16:03:05Z" finished-at="2019-07-01T16:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.testcases.FooterTestPage@79b4d0f]" name="captureStatus" is-config="true" duration-ms="1" started-at="2019-07-01T16:03:22Z" finished-at="2019-07-01T16:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooter status=SUCCESS method=FooterTestPage.verifyFooter()[pri:1, instance:com.testcases.FooterTestPage@79b4d0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.FooterTestPage@79b4d0f]" name="tearDown" is-config="true" duration-ms="450" started-at="2019-07-01T16:03:22Z" finished-at="2019-07-01T16:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.FooterTestPage -->
+    </test> <!-- 3 Verify the Footer of the Page -->
+  </suite> <!-- Suite -->
+</testng-results>
